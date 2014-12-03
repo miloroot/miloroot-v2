@@ -1,0 +1,35 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: #FFFFFF;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+li > a {
+    font-size: 18px;
+}
+
+.pushdown {
+    margin-bottom: 40px;
+}
+
+ul li {
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+ul li:hover {
+    background-color: crimson;
+}
